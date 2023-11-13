@@ -1,7 +1,88 @@
+
 body {
-    margin: 0;
+    font-family: Manrope;
+    color: white;
 }
 
-section {
-    width: 100px;
+
+.header-hero {
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/pic.png);
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1060px;
+    height: 86.1px;
+    margin-left: 429px;
+    padding: 16px;
+    font-size: 16px;
+    ;
+}
+
+.navigation {
+    margin-bottom: 82px;
+}
+
+.header-choise {
+    display: flex;
+}
+
+.navigation-list-img {
+    margin-right: 59.2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+color: #FFFFFFCC;
+}
+
+.navigation-list-tel {
+    font-size: 20px;
+}
+
+.navigation-list-phone {
+    padding: 18px 27px;
+    background-color: #5BBFC8;
+    border-radius: 10px;
+    text-align: center
+    ;
+}
+
+h1 {
+    font-size: 64px;
+    display: block;
+    width: 905px;
+    margin-left: 429px;
+}
+
+.header-hero-about {
+    font-size: 16px;
+    line-height: 24.59px;
+    font-weight: 400;
+    display: block;
+    width: 540px;
+    margin-left: 429px;
+    margin-bottom: 41px;
+}
+
+.header-choise {
+    display: flex;
+}
+
+.header-hero-call {
+    color: black;
+    padding: 22px 54px 22px 19px;
+    background-color: #FFD200;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 429px;
+    margin-bottom: 85px;
 }
