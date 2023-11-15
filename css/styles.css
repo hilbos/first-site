@@ -5,7 +5,7 @@ body {
 }
 
 
-.header-hero {
+.header {
     width: 1920px;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +14,7 @@ body {
 }
 
 
-.navigation-list {
+.navigation__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,32 +30,27 @@ body {
     margin-bottom: 82px;
 }
 
-.navigation-list-img {
+.navigation__logo {
     margin-right: 59.2px;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
-a:link {
-color: #FFFFFFCC;
-}
-
-.navigation-list-tel {
+.navigation__tel {
     font-size: 20px;
-    
+    color: black;
 }
 
-.navigation-list-phone {
+.navigation-list__phone {
     padding: 18px 27px;
     background-color: #5BBFC8;
     border-radius: 10px;
-    text-align: center
-    ;
+    text-align: center;
 }
 
-h1 {
+.header__title {
     font-size: 64px;
     font-weight: 800;
     display: block;
@@ -66,7 +61,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.header-hero-about {
+.header__about {
     font-size: 16px;
     line-height: 24.59px;
     font-weight: 400;
@@ -76,7 +71,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.header-choise {
+.header-row {
     display: flex;
     justify-content: space-between;
     width: 1058px;
@@ -84,7 +79,7 @@ h1 {
     margin-bottom: 91px;
 }
 
-.header-hero-call {
+.header-hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -98,27 +93,30 @@ h1 {
     margin-bottom: 85px;
 }
 
-.header-hero-call img {
+.header-hero__img {
     width: 33px;
     height: 33px;
 }
 
-.header-hero-call a {
+.header-hero__link {
     color: black;
     font-size: 16px;
 }
 
-.repair-whels {
-    background-image: url(../img/pic2.jpg);
+.header-row__block {
     border-radius: 10px;
-    width: 412px;
     height: 288px;
     display: flex;
     flex-direction: column;
+}
+
+.repair-whels {
+    background-image: url(../img/pic2.jpg);
+    width: 412px;
     color: black;
 }
 
-.repair-whels h2 {
+.repair-whels__title {
     font-size: 30px;
     line-height: 41px;
     font-weight: 800;
@@ -130,7 +128,7 @@ h1 {
     color: black;
 }
 
-.repair-whels p {
+.repair-whels__about {
     font-size: 16px;
     line-height: 22px;
     margin-left: 44px;
@@ -140,17 +138,13 @@ h1 {
 
 .car { 
     width: 204px;
-    height: 288px;
     color: black;
     background-color: #FFD200;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     align-self: flex-start;
    
 }
 
-.car p {
+.car__price {
     background-color: #DEB905;
     color: #534407;
     width: 79px;
@@ -163,26 +157,22 @@ h1 {
     text-align: center;
 }
 
-.car img {
+.car__logo {
     margin-top: auto;
     margin-left: 17px;
 }
 
-.car h3 {
+.car_title {
     margin-left: 17px; 
 }
 
 .jeep {
     width: 205px;
-    height: 288px;
     background-color: #4B5257;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     align-self: flex-start;
 }
 
-.jeep p {
+.jeep__price {
     background-color: #B0B0B0;
     color:  #FFFFFF;
     width: 79px;
@@ -195,27 +185,24 @@ h1 {
     text-align: center;
 }
 
-.jeep img {
+.jeep__logo {
     margin-top: auto;
     margin-left: 17px;
 }
 
-.jeep h3 {
+.jeep__title {
     margin-left: 17px;  
 }
 
 .truck {
-    height: 288px;
     width: 205px;
     border-radius: 10px;
     color: black;
     background-color: #5BBFC8;
-    display: flex;
-    flex-direction: column;
     align-self: flex-start;
 }
 
-.truck p {
+.truck__price {
     background-color:  #49A1A9;
     color:  #1E4D54;
     width: 79px;
@@ -228,12 +215,12 @@ h1 {
     text-align: center;  
 }
 
-.truck img {
+.truck__logo {
     margin-top: auto;
     margin-left: 17px; 
 }
 
-.truck h3 {
+.truck__title {
     margin-left: 17px; 
 }
 
@@ -249,3 +236,4 @@ line-height: 55px;
     color: black;  
     text-transform: uppercase;
 }
+/*

@@ -12,47 +12,61 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   <header class="header-hero">  
+   <header class="header">  
    <nav class="navigation">
-     <ul class="navigation-list">
-        <li class="navigation-list-img"><img src="img/Logo.png" alt="лого"></li>
-        <li class="navigation-list-servises"><a href="#">Услуги</a></li>
-        <li class="navigation-list-advantages"><a href="#">Преимущества</a></li>
-        <li class="navigation-list-works"><a href="#">Работы</a></li>
-        <li class="navigation-list-prices"><a href="#">Цены</a></li>
-        <li class="navigation-list-tel"><a href="tel:88005551326">8 (800) 555-13-26</a></li>
-        <li ><a class="navigation-list-phone" href="#">Заказать звонок</a></li>
+     <ul class="navigation__list">
+        <li class="navigation__logo">
+            <img class="Logo" src="img/Logo.png" alt="лого">
+        </li>
+        <li class="navigation__link">
+            <a class="link" href="#">Услуги</a>
+        </li>
+        <li class="navigation__link">
+            <a class="link" href="#">Преимущества</a>
+        </li>
+        <li class="navigation__link">
+            <a class="link" href="#">Работы</a>
+        </li>
+        <li class="navigation__link">
+            <a class="link" href="#">Цены</a>
+        </li>
+        <li class="navigation__tel">
+            <a class="link" href="tel:88005551326">8 (800) 555-13-26</a>
+        </li>
+        <li class="navigation-list__phone">
+            <a class="link" href="#">Заказать звонок</a>
+        </li>
      </ul>
     </nav>
-   <h1>Мобильный<br> шиномонтаж №1</h1>
-   <p class="header-hero-about">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто</p>
-   <div class="header-hero-call">
-   <a href="tel:88005551326">Вызвать шиномонтаж</a> 
-   <img src="img/racing_1.png" alt="иконка колеса"> 
+   <h1 class="header__title">Мобильный<br> шиномонтаж №1</h1>
+   <p class="header__about">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто</p>
+   <div class="header-hero">
+   <a class="header-hero__link link" href="tel:88005551326">Вызвать шиномонтаж</a> 
+   <img class="header-hero__img" src="img/racing_1.png" alt="иконка колеса"> 
 </div>
-    <div class="header-choise">
-        <div class="repair-whels">
-            <h2>Мобильный ремонт и замена колес</h2>
-            <p>Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
+    <div class="header-row">
+        <div class="header-row__block repair-whels">
+            <h2 class="repair-whels__title">Мобильный ремонт и замена колес</h2>
+            <p class="repair-whels__about">Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
         </div>
-        <div class="car">
-            <p>от 199 &#8381</p>
-            <h3>Легковые<br>авто</h3>
-            <img src="img/sedan.png" width="108" height="108" alt="лого седана">
+        <div class="header-row__block car">
+            <p class="car__price">от 199 &#8381</p>
+            <h3 class="car_title">Легковые<br>авто</h3>
+            <img class="car__logo" src="img/sedan.png" width="108" height="108" alt="лого седана">
         </div>
-        <div class="jeep">
-            <p>от 299 &#8381</p>
-            <h3>Кроссоверы, джипы, минивены</h3>
-            <img src="img/jeep.png" width="108" height="108" alt="лого джипа">
+        <div class="header-row__block jeep">
+            <p class="jeep__price">от 299 &#8381</p>
+            <h3 class="jeep__title">Кроссоверы, джипы, минивены</h3>
+            <img class="jeep__logo" src="img/jeep.png" width="108" height="108" alt="лого джипа">
         </div>
-        <div class="truck">
-            <p>от 399 &#8381</p>
-            <h3>Коммерческий транспорт</h3>
-            <img src="img/truck.png" width="123" height="123" alt="лого грузовика">
+        <div class="header-row__block truck">
+            <p class="truck__price">от 399 &#8381</p>
+            <h3 class="truck__title">Коммерческий транспорт</h3>
+            <img class="truck__logo" src="img/truck.png" width="123" height="123" alt="лого грузовика">
         </div>   
 </div>
 </header>
-    <main>
+    <main class="main">
     <section class="main-lawyer">
         <h2>для юридических лиц</h2>
         <p><span>Акция!</span>Первое авто бесплатно!</p>
