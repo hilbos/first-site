@@ -1,239 +1,491 @@
 
 body {
-    font-family: Manrope;
-    color: white;
+font-family: Manrope;
+color: white;
 }
 
 
 .header {
-    width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../img/pic.png);
-    background-repeat: no-repeat;
+width: 1920px;
+margin-left: auto;
+margin-right: auto;
+background-image: url(../img/pic.png);
+background-repeat: no-repeat;
 }
 
 
 .navigation__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1060px;
-    height: 86.1px;
-    margin-left: 420px;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: 800;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1060px;
+height: 86.1px;
+margin-left: 420px;
+padding: 16px;
+font-size: 16px;
+font-weight: 800;
 }
 
 .navigation {
-    margin-bottom: 82px;
+margin-bottom: 82px;
 }
 
 .navigation__logo {
-    margin-right: 59.2px;
+margin-right: 59.2px;
 }
 
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .navigation__tel {
-    font-size: 20px;
-    color: black;
+font-size: 20px;
+color: black;
 }
 
 .navigation-list__phone {
-    padding: 18px 27px;
-    background-color: #5BBFC8;
-    border-radius: 10px;
-    text-align: center;
+padding: 18px 27px;
+background-color: #5BBFC8;
+border-radius: 10px;
+text-align: center;
 }
 
 .header__title {
-    font-size: 64px;
-    font-weight: 800;
-    display: block;
-    width: 905px;
-    margin-left: 429px;
-    margin-bottom: 9px;
-    line-height: 80px;
-    text-transform: uppercase;
+font-size: 64px;
+font-weight: 800;
+display: block;
+width: 905px;
+margin-left: 429px;
+margin-bottom: 9px;
+line-height: 80px;
+text-transform: uppercase;
 }
 
 .header__about {
-    font-size: 16px;
-    line-height: 24.59px;
-    font-weight: 400;
-    display: block;
-    width: 540px;
-    margin-left: 429px;
-    margin-bottom: 50px;
+font-size: 16px;
+line-height: 24.59px;
+font-weight: 400;
+display: block;
+width: 540px;
+margin-left: 429px;
+margin-bottom: 50px;
 }
 
 .header-row {
-    display: flex;
-    justify-content: space-between;
-    width: 1058px;
-    margin-left: 429px;
-    margin-bottom: 91px;
+display: flex;
+justify-content: space-between;
+width: 1058px;
+margin-left: 429px;
+margin-bottom: 91px;
 }
 
 .header-hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 250px;
-    height: 66px;
-    background-color: #FFD200;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: 800;
-    margin-left: 429px;
-    margin-bottom: 85px;
+margin-left: 429px;
+margin-bottom: 85px;
+}
+
+.button {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 250px;
+height: 66px;
+background-color: #FFD200;
+border-radius: 10px;
+text-align: center;
+font-weight: 800;
 }
 
 .header-hero__img {
-    width: 33px;
-    height: 33px;
+width: 33px;
+height: 33px;
 }
 
 .header-hero__link {
-    color: black;
-    font-size: 16px;
+color: black;
+font-size: 16px;
 }
 
 .header-row__block {
-    border-radius: 10px;
-    height: 288px;
-    display: flex;
-    flex-direction: column;
+border-radius: 10px;
+height: 288px;
+display: flex;
+flex-direction: column;
 }
 
 .repair-whels {
-    background-image: url(../img/pic2.jpg);
-    width: 412px;
-    color: black;
+background-image: url(../img/pic2.jpg);
+width: 412px;
+color: black;
 }
 
 .repair-whels__title {
-    font-size: 30px;
-    line-height: 41px;
-    font-weight: 800;
-    margin-bottom: 60px;
-    margin-top: 66px;
-    margin-left: 44px;
-    text-transform: uppercase;
-    width: 344px;
-    color: black;
+font-size: 30px;
+line-height: 41px;
+font-weight: 800;
+margin-bottom: 60px;
+margin-top: 66px;
+margin-left: 44px;
+text-transform: uppercase;
+width: 344px;
+color: black;
 }
 
 .repair-whels__about {
-    font-size: 16px;
-    line-height: 22px;
-    margin-left: 44px;
+font-size: 16px;
+line-height: 22px;
+margin-left: 44px;
     
 }
 
 
 .car { 
-    width: 204px;
-    color: black;
-    background-color: #FFD200;
-    align-self: flex-start;
+width: 204px;
+color: black;
+background-color: #FFD200;
+align-self: flex-start;
    
 }
 
 .car__price {
-    background-color: #DEB905;
-    color: #534407;
-    width: 79px;
-    padding: 8px 5px;
-    border-radius: 4px;
-    margin-left: 17px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 14px;
-    text-align: center;
+background-color: #DEB905;
+color: #534407;
+width: 79px;
+padding: 8px 5px;
+border-radius: 4px;
+margin-left: 17px;
+margin-top: 16px;
+margin-bottom: 16px;
+font-size: 14px;
+text-align: center;
 }
 
 .car__logo {
-    margin-top: auto;
-    margin-left: 17px;
+margin-top: auto;
+margin-left: 17px;
 }
 
 .car_title {
-    margin-left: 17px; 
+margin-left: 17px; 
 }
 
 .jeep {
-    width: 205px;
-    background-color: #4B5257;
-    align-self: flex-start;
+width: 205px;
+background-color: #4B5257;
+align-self: flex-start;
 }
 
 .jeep__price {
-    background-color: #B0B0B0;
-    color:  #FFFFFF;
-    width: 79px;
-    padding: 8px 5px;
-    border-radius: 4px;
-    margin-left: 17px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 14px;
-    text-align: center;
+background-color: #B0B0B0;
+color:  #FFFFFF;
+width: 79px;
+padding: 8px 5px;
+border-radius: 4px;
+margin-left: 17px;
+margin-top: 16px;
+margin-bottom: 16px;
+font-size: 14px;
+text-align: center;
 }
 
 .jeep__logo {
-    margin-top: auto;
-    margin-left: 17px;
+margin-top: auto;
+margin-left: 17px;
 }
 
 .jeep__title {
-    margin-left: 17px;  
+margin-left: 17px;  
 }
 
 .truck {
-    width: 205px;
-    border-radius: 10px;
-    color: black;
-    background-color: #5BBFC8;
-    align-self: flex-start;
+width: 205px;
+border-radius: 10px;
+color: black;
+background-color: #5BBFC8;
+align-self: flex-start;
 }
 
 .truck__price {
-    background-color:  #49A1A9;
-    color:  #1E4D54;
-    width: 79px;
-    padding: 8px 5px;
-    border-radius: 4px;
-    margin-left: 17px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 14px;
-    text-align: center;  
+background-color:  #49A1A9;
+color:  #1E4D54;
+width: 79px;
+padding: 8px 5px;
+border-radius: 4px;
+margin-left: 17px;
+margin-top: 16px;
+margin-bottom: 16px;
+font-size: 14px;
+text-align: center;  
 }
 
 .truck__logo {
-    margin-top: auto;
-    margin-left: 17px; 
+margin-top: auto;
+margin-left: 17px; 
 }
 
 .truck__title {
-    margin-left: 17px; 
+margin-left: 17px; 
 }
 
-.main-lawyer h2 {
-text-align: center;
+.section-lawyer {
+background-color: #f6f4f4;
+}
+
+.title {
 color: black;
+text-align: center;
 font-size: 45px;
+font-weight: 800;
 line-height: 55px;
+text-transform: uppercase
 }
 
-.main-lawyer p {
-    text-align: center;
-    color: black;  
-    text-transform: uppercase;
+.section {
+width: 1920px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
 }
-/*
+
+.section-lawyer__about {
+color: black;
+font-size: 22px;
+font-weight: 700;
+line-height: 35px;
+text-align: center;
+margin-bottom: 63px;
+}
+
+.section-lawyer__span {
+color: #1E4D54;
+display: inline-block;
+background-color: #FFD200;
+width: 79px;
+padding: 8px 5px;
+border-radius: 4px;
+}
+.block {
+display: flex;
+    
+}
+
+.block-list {
+color: black;
+margin-left: 94px;
+align-self: center;
+}
+
+.lawyer-list__item {
+font-size: 22px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.block-list__item {
+color: black;
+}
+
+.block-list__tel {
+color: black;
+}
+.section-advantages {
+background-image: url(../img/pic3.png);
+}
+
+.block-advantages {
+width: 1060px;
+justify-content: space-between;
+margin: 0 auto;
+}
+
+.advantages-list {
+color: black;
+font-size: 20px;
+font-weight: 800;
+line-height: 23px;
+align-self: center;
+}
+.advantages-list__item {
+margin-bottom: 50px ;
+}
+
+.section-advantages__image {
+display: block;
+margin-bottom: 220px;
+}
+
+.section-advantages__title {
+padding-top: 94px;
+margin-bottom: 178px;
+}
+
+.tel {
+color: black;
+    
+}
+
+.section-oder__title {
+padding-top: 94px;
+margin-bottom: 50px;
+}
+
+.section-oder__block {
+width: 618px;
+margin: 0 auto;
+padding-bottom: 107px;
+display: flex;
+justify-content: space-between;
+}
+
+.section-oder {
+background-color: #FFD300;
+}
+
+.oder__link {
+color: white;
+padding: 18px 27px;
+background-color: black;
+border-radius: 10px;
+text-align: center;
+}
+
+.section-additionally {
+background-color: #f6f4f4;
+}
+
+.block-additionally {
+width: 941px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 118px;
+}
+
+.block-additionally__list {
+color: black;
+font-size: 22px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.section-additionally__title {
+padding-top: 94px;
+margin-bottom: 71px;
+}
+
+.block-map {
+justify-content: space-between;
+}
+
+.block-map__image {
+display: block;
+}
+
+.block-map__about {
+background-image: url(../img/pic5.jpg);
+width: 100%;
+}
+
+.block-map__title {
+margin-left: 470px;
+margin-top: 226px;
+}
+
+.block-price__list {
+color: black;
+margin-bottom: 68px;
+}
+
+.block-price {
+margin: 0 auto;
+width: 829px;
+justify-content: space-between;
+}
+
+.block-price__item {
+font-size: 17px;
+font-weight: 500;
+line-height: 45px;
+text-align: left;
+background-color: #EAE9E9;
+margin-bottom: 5px;
+}
+
+.section-price__title {
+padding-top: 92px;
+margin-bottom: 158px;
+}
+
+.section-price {
+background-color: #f6f4f4;
+}
+
+.block-price__button {
+width: 250px;
+margin: 0 auto;
+}
+
+.section-reviews {
+background-color: #f6f4f4;
+}
+
+.section-reviews__title {
+padding-top: 93px;
+}
+
+.block-reviews {
+width: 1060px;
+margin: 0 auto;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.block-reviews__img {
+padding: 98px 230px;
+background-color: #C4C4C4;
+}
+
+.block-reviews__text-name {
+font-size: 22px;
+font-weight: 800;
+color: black;
+}
+
+.block-reviews__post {
+font-size: 18px;
+font-weight: 300;
+color: black;
+}
+
+.block-partners__item {
+    width: 202px;
+    height: 175px;
+    background-color: white;
+}
+
+.block-partners {
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px
+}
+
+.block-partners__img {
+    display: block;
+    margin: auto;
+}
+
+.section-partners {
+    background-color: #f6f4f4;
+}
+
+.section-partners__title {
+    padding-top: 92px;
+    margin-bottom: 60px;
+}
